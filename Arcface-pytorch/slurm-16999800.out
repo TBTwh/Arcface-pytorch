@@ -1,0 +1,229 @@
+#resnet_face18: 50 epoch（actually 35 is enough）
+
+
+149 train iters per epoch:
+Fri Feb 11 17:01:06 2022 train epoch 0 iter 0 150.83989868493973 iters/s loss 21.210458755493164 acc 0.0
+Fri Feb 11 17:01:30 2022 train epoch 0 iter 100 4.270520969970893 iters/s loss 19.63062286376953 acc 0.0
+(7701, 1024)
+total time is 131.38621735572815, average time is 0.5112304177265686
+lfw face verification accuracy:  0.6221666666666666 threshold:  0.62186146
+Fri Feb 11 17:03:58 2022 train epoch 1 iter 51 0.6755711127021227 iters/s loss 18.381610870361328 acc 0.0
+(7701, 1024)
+total time is 17.324608325958252, average time is 0.06741092733835896
+lfw face verification accuracy:  0.6671666666666667 threshold:  0.6456477
+Fri Feb 11 17:04:19 2022 train epoch 2 iter 2 4.623091175938989 iters/s loss 16.21601676940918 acc 0.0
+Fri Feb 11 17:04:23 2022 train epoch 2 iter 102 24.96431801640788 iters/s loss 13.694371223449707 acc 0.0
+(7701, 1024)
+total time is 16.895909070968628, average time is 0.06574283685201801
+lfw face verification accuracy:  0.6828333333333333 threshold:  0.55975986
+Fri Feb 11 17:04:44 2022 train epoch 3 iter 53 4.726159792906891 iters/s loss 12.194252014160156 acc 0.0
+(7701, 1024)
+total time is 17.107818126678467, average time is 0.0665673857069201
+lfw face verification accuracy:  0.6966666666666667 threshold:  0.5531204
+Fri Feb 11 17:05:06 2022 train epoch 4 iter 4 4.676825771139739 iters/s loss 8.54159927368164 acc 0.0
+Fri Feb 11 17:05:10 2022 train epoch 4 iter 104 25.17829883994324 iters/s loss 7.120711803436279 acc 0.125
+(7701, 1024)
+total time is 16.902371883392334, average time is 0.06576798398207134
+lfw face verification accuracy:  0.7073333333333334 threshold:  0.5419412
+Fri Feb 11 17:05:31 2022 train epoch 5 iter 55 4.723596975743092 iters/s loss 5.074932098388672 acc 0.125
+(7701, 1024)
+total time is 17.232715129852295, average time is 0.06705336626401671
+lfw face verification accuracy:  0.6918333333333333 threshold:  0.53854275
+Fri Feb 11 17:05:52 2022 train epoch 6 iter 6 4.649871949324726 iters/s loss 3.890585422515869 acc 0.1875
+Fri Feb 11 17:05:57 2022 train epoch 6 iter 106 24.779817385864394 iters/s loss 3.939438819885254 acc 0.25
+(7701, 1024)
+total time is 16.95324182510376, average time is 0.06596592149845822
+lfw face verification accuracy:  0.714 threshold:  0.50636876
+Fri Feb 11 17:06:18 2022 train epoch 7 iter 57 4.699061543083042 iters/s loss 2.7165913581848145 acc 0.4375
+(7701, 1024)
+total time is 17.132646083831787, average time is 0.06666399254409255
+lfw face verification accuracy:  0.7153333333333334 threshold:  0.50845927
+Fri Feb 11 17:06:39 2022 train epoch 8 iter 8 4.663560972034928 iters/s loss 1.5148361921310425 acc 0.625
+Fri Feb 11 17:06:43 2022 train epoch 8 iter 108 25.112098172685428 iters/s loss 2.927955150604248 acc 0.4375
+(7701, 1024)
+total time is 17.044944763183594, average time is 0.06632274226919686
+lfw face verification accuracy:  0.7115 threshold:  0.53374434
+Fri Feb 11 17:07:05 2022 train epoch 9 iter 59 4.693049164776119 iters/s loss 1.1236337423324585 acc 0.5
+(7701, 1024)
+total time is 17.402666091918945, average time is 0.06771465405415932
+lfw face verification accuracy:  0.6915 threshold:  0.6121488
+Fri Feb 11 17:07:26 2022 train epoch 10 iter 10 4.614376079752026 iters/s loss 0.7955466508865356 acc 0.6875
+Fri Feb 11 17:07:30 2022 train epoch 10 iter 110 24.7279153685059 iters/s loss 0.5120170712471008 acc 0.75
+(7701, 1024)
+total time is 16.921063661575317, average time is 0.06584071463647984
+lfw face verification accuracy:  0.711 threshold:  0.4615129
+Fri Feb 11 17:07:52 2022 train epoch 11 iter 61 4.64881228739446 iters/s loss 0.13676179945468903 acc 0.875
+(7701, 1024)
+total time is 17.27851963043213, average time is 0.06723159389273202
+lfw face verification accuracy:  0.6946666666666667 threshold:  0.55117214
+Fri Feb 11 17:08:13 2022 train epoch 12 iter 12 4.6356223391933895 iters/s loss 0.15394139289855957 acc 0.875
+Fri Feb 11 17:08:17 2022 train epoch 12 iter 112 24.606663651581286 iters/s loss 0.040456511080265045 acc 0.875
+(7701, 1024)
+total time is 17.10175108909607, average time is 0.06654377855679404
+lfw face verification accuracy:  0.7076666666666667 threshold:  0.49970853
+Fri Feb 11 17:08:39 2022 train epoch 13 iter 63 4.661394982159732 iters/s loss 0.07071889936923981 acc 0.875
+(7701, 1024)
+total time is 17.313392162322998, average time is 0.0673672846782996
+lfw face verification accuracy:  0.704 threshold:  0.56236
+Fri Feb 11 17:09:00 2022 train epoch 14 iter 14 4.619040018746173 iters/s loss 0.07477057725191116 acc 0.8125
+Fri Feb 11 17:09:04 2022 train epoch 14 iter 114 25.026141591751305 iters/s loss 0.00788073055446148 acc 0.9375
+(7701, 1024)
+total time is 16.996496438980103, average time is 0.06613422738902763
+lfw face verification accuracy:  0.718 threshold:  0.49470106
+Fri Feb 11 17:09:26 2022 train epoch 15 iter 65 4.707570453635594 iters/s loss 0.0004945358959957957 acc 1.0
+(7701, 1024)
+total time is 17.386199951171875, average time is 0.06765058346759484
+lfw face verification accuracy:  0.7078333333333333 threshold:  0.5245739
+Fri Feb 11 17:09:47 2022 train epoch 16 iter 16 4.6170746087744945 iters/s loss 0.0001864274381659925 acc 1.0
+Fri Feb 11 17:09:51 2022 train epoch 16 iter 116 24.70652670379328 iters/s loss 0.02159428969025612 acc 0.9375
+(7701, 1024)
+total time is 16.979435682296753, average time is 0.06606784312177724
+lfw face verification accuracy:  0.7085 threshold:  0.5012802
+Fri Feb 11 17:10:13 2022 train epoch 17 iter 67 4.699184263261086 iters/s loss 0.13290178775787354 acc 0.9375
+(7701, 1024)
+total time is 17.216920137405396, average time is 0.06699190714943734
+lfw face verification accuracy:  0.7125 threshold:  0.48863336
+Fri Feb 11 17:10:34 2022 train epoch 18 iter 18 4.652663622702231 iters/s loss 0.0004903714871034026 acc 1.0
+Fri Feb 11 17:10:38 2022 train epoch 18 iter 118 25.17951712500292 iters/s loss 0.0007123503601178527 acc 1.0
+(7701, 1024)
+total time is 16.853435754776, average time is 0.06557757103025681
+lfw face verification accuracy:  0.6975 threshold:  0.61584544
+Fri Feb 11 17:10:59 2022 train epoch 19 iter 69 4.740329039528857 iters/s loss 0.0038729507941752672 acc 1.0
+(7701, 1024)
+total time is 17.305084943771362, average time is 0.06733496087070569
+lfw face verification accuracy:  0.7075 threshold:  0.52809095
+Fri Feb 11 17:11:21 2022 train epoch 20 iter 20 4.618794899493322 iters/s loss 0.002452453365549445 acc 1.0
+Fri Feb 11 17:11:25 2022 train epoch 20 iter 120 24.647158078375572 iters/s loss 0.0031159084755927324 acc 1.0
+(7701, 1024)
+total time is 17.032936811447144, average time is 0.06627601872158422
+lfw face verification accuracy:  0.7093333333333334 threshold:  0.5030429
+Fri Feb 11 17:11:47 2022 train epoch 21 iter 71 4.628061011783895 iters/s loss 0.0012327957665547729 acc 1.0
+(7701, 1024)
+total time is 17.167715787887573, average time is 0.06680045053652753
+lfw face verification accuracy:  0.7101666666666666 threshold:  0.528381
+Fri Feb 11 17:12:08 2022 train epoch 22 iter 22 4.65953732103866 iters/s loss 0.025760319083929062 acc 0.9375
+Fri Feb 11 17:12:12 2022 train epoch 22 iter 122 24.860740451402524 iters/s loss 0.007437614724040031 acc 0.9375
+(7701, 1024)
+total time is 17.054466009140015, average time is 0.06635978991883275
+lfw face verification accuracy:  0.7081666666666667 threshold:  0.49614936
+Fri Feb 11 17:12:33 2022 train epoch 23 iter 73 4.693194782302066 iters/s loss 0.008747977204620838 acc 1.0
+(7701, 1024)
+total time is 17.233999252319336, average time is 0.06705836284949158
+lfw face verification accuracy:  0.7098333333333333 threshold:  0.52698696
+Fri Feb 11 17:12:55 2022 train epoch 24 iter 24 4.633109047385284 iters/s loss 0.0008603145834058523 acc 1.0
+Fri Feb 11 17:12:59 2022 train epoch 24 iter 124 24.598538891699732 iters/s loss 0.0005168761708773673 acc 1.0
+(7701, 1024)
+total time is 17.024152755737305, average time is 0.06624183951648757
+lfw face verification accuracy:  0.7136666666666667 threshold:  0.509258
+Fri Feb 11 17:13:20 2022 train epoch 25 iter 75 4.68663500754232 iters/s loss 0.00033574673580005765 acc 1.0
+(7701, 1024)
+total time is 17.408976554870605, average time is 0.06773920838471052
+lfw face verification accuracy:  0.6906666666666667 threshold:  0.5849015
+Fri Feb 11 17:13:42 2022 train epoch 26 iter 26 4.606180862189521 iters/s loss 0.0021644290536642075 acc 1.0
+Fri Feb 11 17:13:46 2022 train epoch 26 iter 126 24.886147009508917 iters/s loss 0.0032996281515806913 acc 1.0
+(7701, 1024)
+total time is 16.92077946662903, average time is 0.0658396088195682
+lfw face verification accuracy:  0.7123333333333334 threshold:  0.5061641
+Fri Feb 11 17:14:07 2022 train epoch 27 iter 77 4.702963347352246 iters/s loss 0.0032011622097343206 acc 1.0
+(7701, 1024)
+total time is 17.445366621017456, average time is 0.06788080397283057
+lfw face verification accuracy:  0.7105 threshold:  0.50547147
+Fri Feb 11 17:14:29 2022 train epoch 28 iter 28 4.599906405159848 iters/s loss 0.00017188259516842663 acc 1.0
+Fri Feb 11 17:14:33 2022 train epoch 28 iter 128 24.210307094202555 iters/s loss 0.0009238971979357302 acc 1.0
+(7701, 1024)
+total time is 17.06278347969055, average time is 0.06639215361747297
+lfw face verification accuracy:  0.7006666666666667 threshold:  0.60602236
+Fri Feb 11 17:14:55 2022 train epoch 29 iter 79 4.690456029803999 iters/s loss 0.0004148533917032182 acc 1.0
+(7701, 1024)
+total time is 17.467869520187378, average time is 0.06796836389177968
+lfw face verification accuracy:  0.708 threshold:  0.5309077
+Fri Feb 11 17:15:16 2022 train epoch 30 iter 30 4.596651024610104 iters/s loss 0.0046287039294838905 acc 1.0
+Fri Feb 11 17:15:20 2022 train epoch 30 iter 130 24.44340218172731 iters/s loss 0.00028748909244313836 acc 1.0
+(7701, 1024)
+total time is 17.269720554351807, average time is 0.06719735624261404
+lfw face verification accuracy:  0.7126666666666667 threshold:  0.5154971
+Fri Feb 11 17:15:42 2022 train epoch 31 iter 81 4.556267564094347 iters/s loss 0.00149634201079607 acc 1.0
+(7701, 1024)
+total time is 17.71322774887085, average time is 0.06892306517070369
+lfw face verification accuracy:  0.7101666666666666 threshold:  0.50864965
+Fri Feb 11 17:16:04 2022 train epoch 32 iter 32 4.521507941026173 iters/s loss 0.0020304047502577305 acc 1.0
+Fri Feb 11 17:16:09 2022 train epoch 32 iter 132 24.729927375696313 iters/s loss 0.0046913474798202515 acc 1.0
+(7701, 1024)
+total time is 16.942275047302246, average time is 0.06592324921129279
+lfw face verification accuracy:  0.7101666666666666 threshold:  0.5347294
+Fri Feb 11 17:16:30 2022 train epoch 33 iter 83 4.7053369540486925 iters/s loss 0.0013624285347759724 acc 1.0
+(7701, 1024)
+total time is 17.818300485610962, average time is 0.0693319085043228
+lfw face verification accuracy:  0.6861666666666667 threshold:  0.57029384
+Fri Feb 11 17:16:52 2022 train epoch 34 iter 34 4.519423849488621 iters/s loss 0.0029768378008157015 acc 1.0
+Fri Feb 11 17:16:56 2022 train epoch 34 iter 134 24.68383993625275 iters/s loss 0.009881789796054363 acc 1.0
+(7701, 1024)
+total time is 16.956191539764404, average time is 0.06597739898741013
+lfw face verification accuracy:  0.7113333333333334 threshold:  0.47525632
+Fri Feb 11 17:17:17 2022 train epoch 35 iter 85 4.7195675641128 iters/s loss 0.037214044481515884 acc 0.9375
+(7701, 1024)
+total time is 17.278281211853027, average time is 0.06723066619398065
+lfw face verification accuracy:  0.7021666666666667 threshold:  0.5894426
+Fri Feb 11 17:17:39 2022 train epoch 36 iter 36 4.637208258899503 iters/s loss 0.0024617265444248915 acc 1.0
+Fri Feb 11 17:17:43 2022 train epoch 36 iter 136 25.15617710920216 iters/s loss 0.005513147450983524 acc 1.0
+(7701, 1024)
+total time is 16.95538640022278, average time is 0.06597426614872677
+lfw face verification accuracy:  0.7098333333333333 threshold:  0.49710345
+Fri Feb 11 17:18:04 2022 train epoch 37 iter 87 4.72087279527358 iters/s loss 0.0010742384474724531 acc 1.0
+(7701, 1024)
+total time is 17.372780323028564, average time is 0.06759836701567534
+lfw face verification accuracy:  0.708 threshold:  0.503347
+Fri Feb 11 17:18:26 2022 train epoch 38 iter 38 4.602032783628871 iters/s loss 0.0020537725649774075 acc 1.0
+Fri Feb 11 17:18:30 2022 train epoch 38 iter 138 24.909504698462726 iters/s loss 0.00013652229972649366 acc 1.0
+(7701, 1024)
+total time is 17.13330340385437, average time is 0.06666655020955008
+lfw face verification accuracy:  0.7011666666666667 threshold:  0.5011529
+Fri Feb 11 17:18:51 2022 train epoch 39 iter 89 4.665198915047257 iters/s loss 0.00044002183130942285 acc 1.0
+(7701, 1024)
+total time is 17.348780155181885, average time is 0.06750498114856765
+lfw face verification accuracy:  0.7108333333333333 threshold:  0.49903905
+Fri Feb 11 17:19:13 2022 train epoch 40 iter 40 4.5915606379302 iters/s loss 8.183879981515929e-05 acc 1.0
+Fri Feb 11 17:19:17 2022 train epoch 40 iter 140 24.687720615059924 iters/s loss 0.007799784652888775 acc 1.0
+(7701, 1024)
+total time is 16.917311668395996, average time is 0.06582611544122956
+lfw face verification accuracy:  0.7111666666666666 threshold:  0.47747713
+Fri Feb 11 17:19:38 2022 train epoch 41 iter 91 4.639556636545767 iters/s loss 0.0015931215602904558 acc 1.0
+(7701, 1024)
+total time is 17.380681037902832, average time is 0.06762910909689818
+lfw face verification accuracy:  0.7 threshold:  0.5043474
+Fri Feb 11 17:20:00 2022 train epoch 42 iter 42 4.614731108083649 iters/s loss 0.00013344692706596106 acc 1.0
+Fri Feb 11 17:20:04 2022 train epoch 42 iter 142 24.715347737239387 iters/s loss 0.0003198317135684192 acc 1.0
+(7701, 1024)
+total time is 16.990501880645752, average time is 0.066110902259322
+lfw face verification accuracy:  0.688 threshold:  0.6817504
+Fri Feb 11 17:20:26 2022 train epoch 43 iter 93 4.677481109849462 iters/s loss 0.0026358054019510746 acc 1.0
+(7701, 1024)
+total time is 17.201619148254395, average time is 0.0669323702266708
+lfw face verification accuracy:  0.7128333333333333 threshold:  0.4937175
+Fri Feb 11 17:20:47 2022 train epoch 44 iter 44 4.639465543990007 iters/s loss 0.0004415118892211467 acc 1.0
+Fri Feb 11 17:20:51 2022 train epoch 44 iter 144 24.232065584756974 iters/s loss 0.001295526628382504 acc 1.0
+(7701, 1024)
+total time is 17.045520544052124, average time is 0.06632498266168142
+lfw face verification accuracy:  0.7175 threshold:  0.5160988
+Fri Feb 11 17:21:13 2022 train epoch 45 iter 95 4.683912220243076 iters/s loss 0.0013603076804429293 acc 1.0
+(7701, 1024)
+total time is 17.3102068901062, average time is 0.06735489062298133
+lfw face verification accuracy:  0.7155 threshold:  0.4813249
+Fri Feb 11 17:21:34 2022 train epoch 46 iter 46 4.620579844486565 iters/s loss 0.0018140634056180716 acc 1.0
+Fri Feb 11 17:21:38 2022 train epoch 46 iter 146 25.05345125402131 iters/s loss 0.00034645278356038034 acc 1.0
+(7701, 1024)
+total time is 17.054697275161743, average time is 0.06636068978662157
+lfw face verification accuracy:  0.7035 threshold:  0.517913
+Fri Feb 11 17:21:59 2022 train epoch 47 iter 97 4.694220767594291 iters/s loss 0.003300861455500126 acc 1.0
+(7701, 1024)
+total time is 19.249884843826294, average time is 0.07490227565691165
+lfw face verification accuracy:  0.7133333333333334 threshold:  0.4944358
+Fri Feb 11 17:22:25 2022 train epoch 48 iter 48 3.9164475550981073 iters/s loss 0.00046757914242334664 acc 1.0
+Fri Feb 11 17:22:29 2022 train epoch 48 iter 148 23.76785307295386 iters/s loss 0.2038263976573944 acc 1.0
+(7701, 1024)
+total time is 17.513240337371826, average time is 0.06814490403646625
+lfw face verification accuracy:  0.7055 threshold:  0.5590686
+Fri Feb 11 17:22:51 2022 train epoch 49 iter 99 4.583063908444931 iters/s loss 4.484180681174621e-05 acc 1.0
+(7701, 1024)
+total time is 17.269312381744385, average time is 0.06719576802235169
+lfw face verification accuracy:  0.7143333333333334 threshold:  0.55817324

@@ -1,0 +1,15 @@
+#resnet_face18
+#network structure&&shape of intermediate results
+
+149 train iters per epoch:
+1->x.shape = torch.Size([16, 1, 128, 128])
+1->x.shape = torch.Size([16, 64, 128, 128])
+1->x.shape = torch.Size([16, 64, 64, 64])
+1->x.shape = torch.Size([16, 64, 64, 64])
+1->x.shape = torch.Size([16, 128, 32, 32])
+1->x.shape = torch.Size([16, 256, 16, 16])
+1->x.shape = torch.Size([16, 512, 8, 8])
+1->x.shape = torch.Size([16, 32768])
+1->x.shape = torch.Size([16, 512])
+1->x.shape = torch.Size([16, 512])
+Mon Feb 14 14:50:52 2022 train epoch 0 iter 0 68.78138517702953 iters/s loss 21.766433715820312 acc 0.0
